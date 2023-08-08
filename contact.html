@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Gayprawn</title>
+</head>
+
+<body>
+    <!-- navigation bar -->
+
+    <header class="bg-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-white fw-bold" href="#" data-bs-toggle="tooltip" data-bs-title="Gay(prawn)"
+                    data-bs-placement="bottom">Gay(prawn)</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link cta" href="contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- contact form -->
+        <section class="py-5" id="contact">
+            <div class="container">
+                <h2 class="fw-bold text-center pb-4 text-white">Contact Us</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form action="#" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label text-white">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label text-white">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <footer class="bg-white">
+        <div class="container py-5" id="contact">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h3 class="fw-bold pb-3">Visit us</h3>
+                    <p>
+                        heaven, paradise island, <br />
+                        bali
+                    </p>
+                    <a href="#" class="text-dark">gayprawn.com</a>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h3 class="fw-bold pb-3">Our sponsers and advertising</h3>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark">Vogue</a>
+                        <a href="#" class="text-dark">Balenciaga</a>
+                        <a href="#" class="text-dark">Rick Owens</a>
+                     
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                   
+                    <div class="d-flex">
+                        <a href="#" class="text-dark">
+                            <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                        </a>
+                        <a href="#" class="text-dark px-3">
+                            <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                        </a>
+                        <a href="#" class="text-dark px-3">
+                            <ion-icon name="logo-pinterest" class="icon"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center copyright"> &copy; 2023gayprawn</p>
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="tooltip"]'
+        );
+        const tooltipList = [...tooltipTriggerList].map(
+            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+        );
+    </script>
+</body>
+
+</html>

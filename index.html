@@ -1,19 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>portfolio</title>
 </head>
 
 <body>
+    <!-- navigation bar -->
 
+    <header class="bg-header">
+        <nav class="navbar navbar-expand-lg justify-content-center">
+            <div class="container">
+                <a class="navbar-brand text-white fw-bold" href="/" data-bs-toggle="tooltip" data-bs-title="Gay(prawn)"
+                    data-bs-placement="bottom">Gay(prawn)</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link cta" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+        <section class="hero-section py-5">
+            <div class="container py-3">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row g-5 d-flex align-items-center justify-content-center">
+                                <div class="col-12 col-lg-6 text-center">
+                                    <h1 class="text-white fw-bold">
+                                        Visualize your persona
+                                    </h1>
+                                    <p class="text-white pt-4">
+                                        Finds the balance between enough and too much :).
+                                        We specialize in customizing according to your style, so send us your designs and we will
+                                        hit you up with specific designs made for you.
+                                    </p>
+                                    <button class="btn mt-5">Order Now</button>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="images/carousel image 1.jpg" class="hero-img" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row g-5 d-flex align-items-center justify-content-center">
+                                <div class="col-12 col-lg-6 text-center">
+                                    <h1 class="text-white fw-bold">
+                                        Inspire Yourself
+                                    </h1>
+                                    <button class="btn mt-5">Order Now</button>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="images/model shoes.jpg" class="hero-img" alt="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+    </header>
+    <main>
+        <section class="featured py-5" id="features">
+            <div class="container">
+                <h2 class="text-dark fw-bold text-center pt-5 pb-5">
+                    Popular Clothing Aesthetics
+                </h2>
+                <h3 class="text-dark fw-bold text-center pt-5 pb-5">
+                    (Try not to follow this,wear what you feel confident in. we have handmade designs at store for you to choose from )
+                </h3>
+                
+            </div>
+
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded card-animate ">
+                            <img src="images/297890963_448527770495547_3335029773037770411_n-1.webp" class="card-img-top" alt="" />
+                            <div class="card-body">
+                                <h3 class="card-title">STREET WEAR</h3>
+                                
+                                <button class="btn">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded card-animate">
+                            <img src="images/model shoes.jpg" class="card-img-top" alt="" />
+                            <div class="card-body">
+                                <h3 class="card-title">BLOKE CORE</h3>
+                                <button class="btn">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded card-animate">
+                            <img src="images/tilt main.jpg" class="card-img-top" alt="" />
+                            <div class="card-body">
+                                <h3 class="card-title">NORM CORE</h3>
+                                <button class="btn">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card shadow-sm border-0 rounded card-animate">
+                            <img src="images/phone main.jpg" class="card-img-top" alt="" />
+                            <div class="card-body">
+                                <h3 class="card-title">Y2K</h3>
+                             
+                                <button class="btn">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="About-us" id="about">
+            <div class="container">
+                <h2 class="text-dark fw-bold text-center pt-5 pb-3">
+                    About Us
+                </h2>
+
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-12 col-lg-6">
+                            <div class="p-4 d-flex shadow-sm section-how-card flex-column justify-content-center rounded card-animate">
+                                <img src="images/msg815343365-4614.jpg" class="img-fluid mb-3" alt="Image 1">
+                                <h3 class="fw-bold text-dark how-it-works-title">
+                                    Archit Krishna (Founder)
+                                </h3>
+                                <p class="about-us-text">
+                                    He is a 20 year old student learning IMD media program at Algonquin college, Ottawa. He has a keen eye in fashion and hopes that one day he'll be able to create a fashion company on his own.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex p-4 shadow-sm section-how-card flex-column justify-content-center rounded card-animate">
+                                <img src="images/nirmal.jpg" class="img-fluid mb-3" alt="Image 2">
+                                <h3 class="fw-bold text-dark how-it-works-title">
+                                    Nirmla Sivadasan (Co-founder)
+                                </h3>
+                                <p class="about-us-text">
+                                   He is a close friend of Archit. learned how to communicate and please the audience through his content and is the media designer for the company. he combines quality content with funny items which makes our advertising fun to watch.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <footer class="bg-black">
+            <div class="container py-5" id="contact">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h3 class="fw-bold pb-3 text-white">Visit us</h3>
+                        <p class="text-white">
+                            heaven, paradise island, <br />
+                            bali
+                        </p>
+                        <a href="#" class="text-white">gayprawn.com</a>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <h3 class="fw-bold pb-3 text-white">Our sponsors and advertising</h3>
+                        <div class="d-flex flex-column">
+                            <a href="#" class="text-white">Vogue</a>
+                            <a href="#" class="text-white">Balenciaga</a>
+                            <a href="#" class="text-white">Rick Owens</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex">
+                            <a href="#" class="text-white">
+                                <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                            </a>
+                            <a href="#" class="text-white px-3">
+                                <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                            </a>
+                            <a href="#" class="text-white px-3">
+                                <ion-icon name="logo-pinterest" class="icon"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center copyright text-white"> &copy; 2023gayprawn</p>
+        </footer>        
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="tooltip"]'
+        );
+        const tooltipList = [...tooltipTriggerList].map(
+            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+        );
     </script>
 </body>
+
 </html>
