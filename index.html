@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Microdata markup added by Google Structured Data Markup Helper. -->
+<html lang="en" class="hydrated">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    </meta>
+    <style data-styles="">
+        ion-icon {
+            visibility: hidden
+        }
+
+        .hydrated {
+            visibility: inherit
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </meta>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css" />
     <title>portfolio</title>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
-    <!-- navigation bar -->
+    <!--  navigation bar  -->
 
     <header class="bg-header">
         <nav class="navbar navbar-expand-lg justify-content-center">
@@ -39,7 +53,7 @@
                 </div>
             </div>
         </nav>
-        <!-- Carousel  -->
+        <!--  Carousel   -->
         <section class="hero-section py-5">
             <div class="container py-3">
                 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -52,10 +66,13 @@
                                     </h1>
                                     <p class="text-white pt-4">
                                         Finds the balance between enough and too much :).
-                                        We specialize in customizing according to your style, so send us your designs and we will
+                                        We specialize in customizing according to your style, so send us your designs
+                                        and we will
                                         hit you up with specific designs made for you.
                                     </p>
-                                    <button class="btn mt-5">Order Now</button>
+                                    <button id="_offers2" itemprop="offers" itemscope itemtype="http://schema.org/Offer"
+                                        class="btn mt-5">Order
+                                        <span itemprop="price">Now</span></button>
                                 </div>
                                 <div class="col-12 col-lg-6">
                                     <div class="d-flex justify-content-center">
@@ -64,7 +81,7 @@
                                 </div>
                             </div>
                         </div>
-                            <!-- Carousel item 2 -->
+                        <!--  Carousel item 2  -->
                         <div class="carousel-item">
                             <div class="row g-5 d-flex align-items-center justify-content-center">
                                 <div class="col-12 col-lg-6 text-center">
@@ -81,7 +98,7 @@
                             </div>
                         </div>
                     </div>
-                        <!-- Carousel prev and next icons -->
+                    <!--  Carousel prev and next icons  -->
                     <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -93,57 +110,62 @@
                 </div>
             </div>
         </section>
-        
+
     </header>
-    <!-- Grid contents  -->
+    <!--  Grid contents   -->
     <main>
         <section class="featured py-5" id="features">
-            <div class="container">
-                <h2 class="text-dark fw-bold text-center pt-5 pb-5">
+            <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="container">
+                <h2 itemprop="name" class="text-dark fw-bold text-center pt-5 pb-5">
                     Popular Clothing Aesthetics
                 </h2>
                 <h3 class="text-dark fw-bold text-center pt-5 pb-5">
-                    (Try not to follow this,wear what you feel confident in. we have handmade designs at store for you to choose from )
+                    (Try not to follow this,wear what you feel confident in. we have handmade designs at store for you
+                    to choose from )
                 </h3>
-                
+
             </div>
 
             <div class="container">
                 <div class="row g-5">
-                    <div class="col-12 col-lg-3">
+                    <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="col-12 col-lg-3">
                         <div class="card shadow-sm border-0 rounded card-animate ">
-                            <img src="images/297890963_448527770495547_3335029773037770411_n-1.webp" class="card-img-top" alt="" />
+                            <img src="images/297890963_448527770495547_3335029773037770411_n-1.webp"
+                                class="card-img-top" alt="" />
                             <div class="card-body">
-                                <h3 class="card-title">STREET WEAR</h3>
-                                
+                                <h3 class="card-title">STREET
+                                    <span itemprop="name">WEAR</span></h3>
+
                                 <button class="btn">Order Now</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="col-12 col-lg-3">
                         <div class="card shadow-sm border-0 rounded card-animate">
                             <img src="images/model shoes.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
-                                <h3 class="card-title">BLOKE CORE</h3>
+                                <h3 class="card-title">
+                                    <span itemprop="name">BLOKE</span> CORE</h3>
                                 <button class="btn">Order Now</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="col-12 col-lg-3">
                         <div class="card shadow-sm border-0 rounded card-animate">
                             <img src="images/tilt main.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
-                                <h3 class="card-title">NORM CORE</h3>
+                                <h3 class="card-title">
+                                    <span itemprop="name">NORM</span> CORE</h3>
                                 <button class="btn">Order Now</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3">
+                    <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="col-12 col-lg-3">
                         <div class="card shadow-sm border-0 rounded card-animate">
                             <img src="images/phone main.jpg" class="card-img-top" alt="" />
                             <div class="card-body">
-                                <h3 class="card-title">Y2K</h3>
-                             
+                                <h3 itemprop="name" class="card-title">Y2K</h3>
+
                                 <button class="btn">Order Now</button>
                             </div>
                         </div>
@@ -151,34 +173,47 @@
                 </div>
             </div>
         </section>
-        <!-- the about us section -->
+        <!--  the about us section  -->
         <section class="About-us" id="about">
             <div class="container">
-                <h2 class="text-dark fw-bold text-center pt-5 pb-3">
-                    About Us
-                </h2>
+
+                <span itemscope itemtype="http://schema.org/Product" itemref="_offers2">
+                    <h2 itemprop="name" class="text-dark fw-bold text-center pt-5 pb-3">
+                        About Us
+                    </h2>
+                </span>
 
                 <div class="container py-5">
                     <div class="row g-5">
-                        <div class="col-12 col-lg-6">
-                            <div class="p-4 d-flex shadow-sm section-how-card flex-column justify-content-center rounded card-animate">
-                                <img src="images/msg815343365-4614.jpg" class="img-fluid mb-3" alt="Image 1">
-                                <h3 class="fw-bold text-dark how-it-works-title">
+                        <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="col-12 col-lg-6">
+                            <div
+                                class="p-4 d-flex shadow-sm section-how-card flex-column justify-content-center rounded card-animate">
+                                <img src="images/msg815343365-4614.jpg" class="img-fluid mb-3" alt="Image 1" />
+                                <h3 itemprop="name" class="fw-bold text-dark how-it-works-title">
                                     Archit Krishna (Founder)
                                 </h3>
                                 <p class="about-us-text">
-                                    He is a 20 year old student learning IMD media program at Algonquin college, Ottawa. He has a keen eye in fashion and hopes that one day he'll be able to create a fashion company on his own.
+
+                                    <span itemprop="description">He is a 20 year old student learning IMD media program
+                                        at Algonquin college, Ottawa. He has a keen eye in fashion and hopes that one
+                                        day he'll be able to create a fashion company on his own</span>.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="d-flex p-4 shadow-sm section-how-card flex-column justify-content-center rounded card-animate">
-                                <img src="images/nirmal.jpg" class="img-fluid mb-3" alt="Image 2">
+                        <div itemscope itemtype="http://schema.org/Product" itemref="_offers2" class="col-12 col-lg-6">
+                            <div
+                                class="d-flex p-4 shadow-sm section-how-card flex-column justify-content-center rounded card-animate">
+                                <img src="images/nirmal.jpg" class="img-fluid mb-3" alt="Image 2" />
                                 <h3 class="fw-bold text-dark how-it-works-title">
-                                    Nirmla Sivadasan (Co-founder)
+
+                                    <span itemprop="name">Nirmla Sivadasan</span> (Co-founder)
                                 </h3>
                                 <p class="about-us-text">
-                                   He is a close friend of Archit. learned how to communicate and please the audience through his content and is the media designer for the company. he combines quality content with funny items which makes our advertising fun to watch.
+
+                                    <span itemprop="description">He is a close friend of Archit. learned how to
+                                        communicate and please the audience through his content and is the media
+                                        designer for the company. he combines quality content with funny items which
+                                        makes our advertising fun to watch</span>.
                                 </p>
                             </div>
                         </div>
@@ -187,8 +222,8 @@
             </div>
         </section>
 
-       
-        <!-- footer -->
+
+        <!--  footer  -->
         <footer class="bg-black">
             <div class="container py-5" id="contact">
                 <div class="row">
@@ -211,33 +246,56 @@
                     <div class="col-12 col-lg-4">
                         <div class="d-flex">
                             <a href="#" class="text-white">
-                                <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                                <ion-icon name="logo-facebook" class="icon md hydrated" role="img"
+                                    aria-label="logo facebook">
+                                    <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 512 512" class="s-ion-icon">
+                                            <path
+                                                d="M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z">
+                                            </path>
+                                        </svg></div>
+                                </ion-icon>
                             </a>
                             <a href="#" class="text-white px-3">
-                                <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                                <ion-icon name="logo-instagram" class="icon md hydrated" role="img"
+                                    aria-label="logo instagram">
+                                    <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 512 512" class="s-ion-icon">
+                                            <path
+                                                d="M336 96c21.2 0 41.3 8.4 56.5 23.5S416 154.8 416 176v160c0 21.2-8.4 41.3-23.5 56.5S357.2 416 336 416H176c-21.2 0-41.3-8.4-56.5-23.5S96 357.2 96 336V176c0-21.2 8.4-41.3 23.5-56.5S154.8 96 176 96h160m0-32H176c-61.6 0-112 50.4-112 112v160c0 61.6 50.4 112 112 112h160c61.6 0 112-50.4 112-112V176c0-61.6-50.4-112-112-112z">
+                                            </path>
+                                            <path
+                                                d="M360 176c-13.3 0-24-10.7-24-24s10.7-24 24-24c13.2 0 24 10.7 24 24s-10.8 24-24 24zM256 192c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64m0-32c-53 0-96 43-96 96s43 96 96 96 96-43 96-96-43-96-96-96z">
+                                            </path>
+                                        </svg></div>
+                                </ion-icon>
                             </a>
                             <a href="#" class="text-white px-3">
-                                <ion-icon name="logo-pinterest" class="icon"></ion-icon>
+                                <ion-icon name="logo-pinterest" class="icon md hydrated" role="img"
+                                    aria-label="logo pinterest">
+                                    <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewbox="0 0 512 512" class="s-ion-icon">
+                                            <path
+                                                d="M256 32C132.3 32 32 132.3 32 256c0 91.7 55.2 170.5 134.1 205.2-.6-15.6-.1-34.4 3.9-51.4 4.3-18.2 28.8-122.1 28.8-122.1s-7.2-14.3-7.2-35.4c0-33.2 19.2-58 43.2-58 20.4 0 30.2 15.3 30.2 33.6 0 20.5-13.1 51.1-19.8 79.5-5.6 23.8 11.9 43.1 35.4 43.1 42.4 0 71-54.5 71-119.1 0-49.1-33.1-85.8-93.2-85.8-67.9 0-110.3 50.7-110.3 107.3 0 19.5 5.8 33.3 14.8 43.9 4.1 4.9 4.7 6.9 3.2 12.5-1.1 4.1-3.5 14-4.6 18-1.5 5.7-6.1 7.7-11.2 5.6-31.3-12.8-45.9-47-45.9-85.6 0-63.6 53.7-139.9 160.1-139.9 85.5 0 141.8 61.9 141.8 128.3 0 87.9-48.9 153.5-120.9 153.5-24.2 0-46.9-13.1-54.7-27.9 0 0-13 51.6-15.8 61.6-4.7 17.3-14 34.5-22.5 48 20.1 5.9 41.4 9.2 63.5 9.2 123.7 0 224-100.3 224-224C480 132.3 379.7 32 256 32z">
+                                            </path>
+                                        </svg></div>
+                                </ion-icon>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <p class="text-center copyright text-white"> &copy; 2023gayprawn</p>
-        </footer>        
-        
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
-    </script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script>
-        const tooltipTriggerList = document.querySelectorAll(
-            '[data-bs-toggle="tooltip"]'
-        );
-        const tooltipList = [...tooltipTriggerList].map(
-            (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
-        );
-    </script>
+            <p class="text-center copyright text-white"> © 2023gayprawn</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous">
+        </script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script></script>
+
+
+    </main>
 </body>
 
 </html>
