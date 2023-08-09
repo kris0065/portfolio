@@ -21,6 +21,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+ion-icon {
+    visibility: hidden
+}
+
+.hydrated {
+    visibility: inherit
+}
 
 /* Set base font size for responsive design */
 html {
