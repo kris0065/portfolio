@@ -7,5 +7,6 @@ I used the following properties and properties in creating this website.
 •	Animate.css
 •	Ionicons
 •	Google fonts
-•	Used images from pexels which gave me no copyright pictures of the models 
+•	Used images from pexels which gave me no copyright pictures of the models
+i used googles structured data markup helper for the schema roles
 This wonderful experience has given me knowledge on how a website should be developed, its design, and the ability to use existing tools and resources to create user-friendly web experiences.
