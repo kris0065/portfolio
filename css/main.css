@@ -1,72 +1,80 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap');
 
+/* Global variables */
 :root {
   /* Primary Color */
   --primary-color: pink;
 
-  --background-color : black ;
+  --background-color: black;
 
   /* Background */
-  --pink-color: pink; 
+  --pink-color: pink;
 
   /* Text and Secondary Elements */
   --text-color: #333;
 }
 
-
-
-*{
+/* Reset default styles */
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html{
+/* Set base font size for responsive design */
+html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-body{
+
+/* Set font family and default styles for body */
+body {
   font-family: 'Lato', sans-serif;
   color: #333;
   font-size: 1.8rem;
-   line-height: 1.6;
+  line-height: 1.6;
 }
 
+/* Reset default list style */
 ul {
   list-style: none;
 }
 
+/* Remove default underline from links */
 a {
   text-decoration: none;
 }
 
-.bg-header{
+/* Styling for the navigation bar */
+.bg-header {
   background-color: var(--background-color);
 }
 
-
-nav{
+nav {
   height: 9rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 2.4rem;
 }
 
-
-.nav-link:link , .nav-link:visited {
+/* Styling for navigation links */
+.nav-link:link,
+.nav-link:visited {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 500;
   display: inline-block;
 }
 
-
-.nav-link:hover , .nav-link:active{
+/* Hover and active styles for navigation links */
+.nav-link:hover,
+.nav-link:active {
   color: var(--primary-color);
 }
 
-
+/* Styling for Call to Action (CTA) link */
 .nav-link.cta {
   background-color: dimgray;
   display: inline-block;
@@ -74,34 +82,38 @@ nav{
   border-radius: 4px;
 }
 
-.nav-link.cta:hover{
- background-color: #0e2420;
- color: wheat;
+/* Hover styles for CTA link */
+.nav-link.cta:hover {
+  background-color: #0e2420;
+  color: wheat;
 }
 
-
+/* Typography styles for headings */
 h1 {
   font-size: 5.2rem;
   letter-spacing: -0.4px;
   line-height: 1.2;
 }
 
-h2{
+h2 {
   font-size: 4.4rem;
   line-height: 1.3;
 }
 
-.hero-section{
+/* Styling for hero section */
+.hero-section {
   padding: 3.2rem 0;
 }
- .hero-section p{
+
+/* Styling for text within hero section */
+.hero-section p {
   font-size: 1.8rem;
   line-height: 1.7;
   letter-spacing: 0.3px;
 }
 
-
-.btn{
+/* Styling for buttons */
+.btn {
   background-color: var(--primary-color);
   color: #fff;
   padding: 8px 24px;
@@ -109,28 +121,32 @@ h2{
   border-radius: 4px;
 }
 
-.hero-img{
+/* Styling for hero image */
+.hero-img {
   width: 90%;
 }
 
-.card-title{
+/* Styling for card titles */
+.card-title {
   font-size: 1.8rem;
   font-weight: bold;
 }
 
-.card-text{
+/* Styling for card text */
+.card-text {
   font-size: 1.6rem;
   color: #777;
 }
 
-
-.about-us-text{
+/* Styling for about us text */
+.about-us-text {
   font-size: 1.8rem;
   color: #333;
   line-height: 1.7;
 }
 
-.icon{
+/* Styling for social media icons */
+.icon {
   width: 1.8rem;
   height: 1.8rem;
   padding: 1.2rem;
@@ -140,53 +156,53 @@ h2{
   margin-bottom: 1.6rem;
 }
 
+/* Animation for card hover effect */
 .card-animate {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .card-animate:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-h3{
+/* Styling for card headings */
+h3 {
   font-size: 2.4rem;
 }
 
-
-
- span.navbar-toggler-icon {
+/* Styling for hamburger menu icon */
+span.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='yellow' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   color: white;
 }
 
-
-/* change hamburger button border color */
- button.navbar-toggler {
+/* Styling for hamburger button border color */
+button.navbar-toggler {
   border-color: #fff;
 }
 
-/* change navbar background on collapse */
+/* Styling for navbar background on collapse */
 @media (max-width: 982px) {
   nav .navbar-nav {
     background-color: orangered;
     padding: 2rem;
   }
-
-  .hero-section{
+  .hero-section {
     text-align: center;
   }
-  h1{
+  h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
   }
 }
 
-.navbar-brand:hover{
-  color: #048E7B ;
+/* Styling for navbar brand on hover */
+.navbar-brand:hover {
+  color: #048E7B;
 }
 
-
-.copyright{
+/* Styling for copyright text */
+.copyright {
   font-size: 1.4rem;
   color: #777;
 }
